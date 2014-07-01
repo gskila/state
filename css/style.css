@@ -1,0 +1,506 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/**************** header ***************************/
+
+a.sprite, .sprite {
+	background: url(../images/sprite.png) no-repeat;
+	display: inline-block;
+	text-indent: -9999px;
+}
+
+.lf-menu{
+	margin-top:5px;
+	margin-left:20px;
+}
+.lf-menu li a{
+	font-size:20px;
+}
+
+rt-menu li a{
+	font-size:14px;
+}
+
+
+
+/*
+
+.lf-nav li a:hover, .lf-nav li.active a {
+	background: url(../images/bullet.png) no-repeat top 5px left;
+	margin-left: -15px;
+	padding-left: 15px;
+}
+.lf-nav li a {
+	font: normal 18px "TradeGothic", "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	padding: 0;
+}
+.top-rt-nav li a {
+	font: normal 18px "TradeGothic", "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	color: #000;
+}
+.top-search input, .top-search button {
+	background: none;
+	border: none;
+}
+.top-search input {
+	text-align: right;
+	font: normal 18px "TradeGothic", "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+ .top-search input::-webkit-input-placeholder {
+ color: #000;
+ font:normal 18px "TradeGothic", "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}*/
+ .top-search input:-moz-placeholder { /* Firefox 18- */
+ color: #000;
+ font:normal 18px "TradeGothic", "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+ .top-search input::-moz-placeholder {  /* Firefox 19+ */
+ color: #000;
+ font:normal 18px "TradeGothic", "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+ .top-search input:-ms-input-placeholder {
+ color: #000;
+ font:normal 18px "TradeGothic", "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+/*************************** banner-section ************************/
+.banner-section {
+	
+}
+.banner-slider{
+	overflow:hidden;
+}
+
+/*.banner-slider .flex-direction-nav {
+	display: none;
+}*/
+.banner-slider li {
+	position: relative;
+}
+.banner-txt-wrap{
+	width:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:3;
+}
+.banner-txt {
+	
+	color: #fff;
+	text-align: center;
+}
+.banner-txt h1 {
+	font: normal 160px/1 "TradeGothic LT Bold", "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	margin: 0;
+}
+.banner-txt p {
+	line-height: 1.5;
+	font-size: 30px;
+}
+.pic {
+	max-height: 100%;
+	max-width: 100%;
+	margin: 7px 0;
+}
+.pic-caption {
+	background: rgba(255,255,255,0.8);
+	margin: 2%;
+	width: 96%;
+	height: 96%;
+}
+.thumb-caption {
+	padding-top: 40%;
+	font-size: 20px;
+}
+.pic-title {
+	font-size: 48px;
+	font-family: "TradeGothic LT Bold";
+	line-height: 1.5;
+	padding-top: 70px;
+	display: block;
+}
+a.shop-link {
+	font-size: 24px;
+	color: #000;
+	position: absolute;
+	bottom: 40px;
+	left: 40%;
+}
+.main-container{
+	padding-top:40px;
+
+}
+/********************* footer section css goes here ***********************/
+.footer {
+	background: #f1f1f1;
+	text-align: center;
+	font-size: 18px;
+	color: #000;
+	padding-top: 50px;
+}
+.footer-box {
+	width: 45%;
+	margin: 0 auto;
+	font-size: 17px;
+	color: #000;
+}
+.footer-box a {
+	color: #000;
+	
+}
+a.subscibe{
+	font:normal 23px/1 "TradeGothic LT Bold", "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	
+}
+.footer-box hr {
+	border-color: #d2d2d2;
+	margin: 40px 0;
+}
+.social li a {
+	height: 22px;
+}
+a.facebook-icon {
+	background-position: 0 0;
+	width: 13px;
+}
+a.twitter-icon {
+	background-position: -41px 0;
+	width: 26px;
+}
+a.pinterest-icon {
+	background-position: -96px 0;
+	width: 18px;
+}
+a.instagram-icon {
+	background-position: -142px 0;
+	width: 23px;
+}
+a.facebook-icon:hover {
+	background-position: 0 -33px;
+}
+a.twitter-icon:hover {
+	background-position: -41px -33px;
+}
+a.pinterest-icon:hover {
+	background-position: -96px -33px;
+}
+a.instagram-icon:hover {
+	background-position: -142px -33px;
+}
+.footer-nav li a {
+	font-family: "TradeGothic LT Bold", "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 18px;
+	color: #000;
+}
+/*********************** collection page css goes here ************************/
+.tab-title {
+	text-align: center;
+	border-bottom: none;
+}
+.tab-title li {
+	float: none;
+	display: inline-block;
+}
+.tab-title li a {
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #000;
+	padding: 10px 20px;
+	border: none;
+}
+.tab-title > li > a:hover, .tab-title > li.active > a, .tab-title > li.active > a:hover, .tab-title > li.active > a:focus {
+	border: none;
+	background: url(../images/bullet.png) no-repeat top 18px left;
+}
+.collection-list li {
+	text-align: center;
+	padding: 20px 0;
+}
+a.product-name {
+	font: normal 48px/1.1 "TradeGothic LT Bold", "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	padding: 10px 0;
+	display: block;
+	color: #000;
+}
+.price {
+	display: inline-block;
+}
+
+/****************** product detail page css goes here ***********************/
+
+.product-des{
+	text-align:center;
+}
+.product-title{
+	border:3px solid #cccccc;
+	display:inline-block;
+	padding:20px 150px;
+	font:normal 32px "TradeGothic LT Bold", "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;	
+	margin-bottom:30px;
+}
+.item-price{
+	font-size:24px;
+	display:block;
+}
+.hide-detail{
+	display:none;
+}
+a.view-details{
+	color:#000;
+	font:normal 15px "TradeGothic LT Bold", "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	
+	
+	
+}
+.plus{
+
+}
+.mul{
+	text-indent:-9999px;
+	display:inline-block;
+	background:url(../images/mul.png) no-repeat;
+	width:10px;
+	height:15px;
+	
+
+}
+
+.product-carousel{
+	padding:25px 100px;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	margin:25px 0;
+}
+.product-carousel li{
+	
+	margin-right:9px;
+}
+.product-carousel li img{
+
+}
+
+.product-carousel .flex-active-slide{
+	border:3px solid #000;
+	padding:4px;
+}
+
+
+.btn-dark{
+	background:#000;
+	color:#fff;
+	font-size:24px;
+	display:block;
+	border-radius:0;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.btn-dark:hover{
+	color:#ccc;
+}
+
+.size{
+	margin-bottom:25px;
+}
+.share{
+	margin-top:25px;
+}
+.share-icon li a{
+	height:17px;
+}
+a.facebook-sm-icon{
+	background-position:0 -65px;
+	width:10px;
+}
+a.twitter-sm-icon{
+	background-position:-29px -65px;
+	width:20px;
+}
+a.pinterest-sm-icon{
+	background-position:-68px -65px;
+	width:13px;
+}
+
+
+a.facebook-sm-icon:hover{
+	background-position:0 -89px;
+	
+}
+a.twitter-sm-icon:hover{
+	background-position:-29px -89px;
+
+}
+a.pinterest-sm-icon:hover{
+	background-position:-68px -89px;
+	
+}
+
+
+/******************* story page css goes here ****************************/
+.big-txt{
+	font-size:238px;
+	line-height:1;
+	padding-top:350px;
+}
+.mid-txt{
+	font-size:160px;
+	padding-top:220px;
+}
+
+.banner-txt h3{
+	font-size:45px;
+}
+.sub-nav{
+	text-align:center;
+	margin-bottom:0;
+}
+.sub-nav li{
+	display:inline;
+
+}
+.sub-nav li a{
+	font-size:20px;
+	color:#000;
+		margin:50px 25px;
+		display:inline-block;
+}
+.bg-pic{
+	position:relative;
+	margin-bottom:100px;
+	
+}
+.bg-pic .banner-txt-wrap{
+	padding-top:175px;
+}
+.down-arrow{
+	margin-top:20px;
+}
+.big-center-txt{
+	text-align:center;
+	font-size:30px;
+	line-height:1.5333;
+}
+.big-center-txt p{
+	margin-bottom:70px;
+}
+.wrap{
+	margin-bottom:100px;
+}
+
+a.btn-txt{
+	padding: 25px 130px;
+	border:3px solid #cccccc;
+	color:#000;
+	font:normal 32px "TradeGothic LT Bold", "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	display:inline-block;
+}
+a.bor:hover{
+	text-decoration:none;
+	color:#666;
+}
+.vidoe-list li{
+	margin-bottom:16px;
+}
+
+.hide-video{
+	display:none;
+}
+
+.see-more{
+	margin-top:20px;
+}
+/*************** misc *********************/
+.no-horizan-pad {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+@media (max-width: 767px) {
+.header {
+	top: 10px;
+}
+.lf-nav li {
+	margin: 5px 0;
+}
+
+a.navbar-brand {
+	width: 50%;
+}
+.top-search input {
+	width: 100px;
+}
+
+.pic,  
+.pic .img-responsive {
+	width: 100%;
+}
+.product-title{
+	padding:15px 0;
+	display:block;
+}
+.banner-txt{
+	bottom:0px;
+}
+.banner-txt h1{
+	font-size:30px ;
+}
+  .banner-txt p{
+	  font-size:12px !important; 
+	 }
+
+}
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+.footer-nav li a, .top-rt-nav li a {
+	font-size: 15px;
+}
+a.product-name {
+	font-size: 30px !important;
+}
+.product-title{
+	padding:15px 0;
+	display:block;
+}
+.banner-txt h1{
+	font-size:40px !important;
+}
+.banner-txt{
+	bottom:10px;
+}
+.banner-txt h1{
+	font-size:30px ;
+}
+  .banner-txt p{
+	  font-size:20px !important; 
+	 }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+.banner-txt h1{
+	font-size:100px;
+	
+}
+.banner-txt h1{
+	font-size:60px !important;
+}
+.banner-txt{
+	bottom:10px;
+}
+.banner-txt h1{
+	font-size:30px ;
+}
+  .banner-txt p{
+	  font-size:20px !important; 
+	 }
+}
+
+@media (min-width: 1200px) {
+
+}
